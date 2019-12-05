@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cinzel', serif;
+}
+
+#css-zen-garden {
+	padding: 15px;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 150%;
+}
+
+.page-wrapper a {
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
+
+header {
+	background-color: #d2fdff;
+	border-bottom: double;
+	padding: 25px;
+	background-image: url("moon.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+header h1 {
+	width: 70%;
+	font-family: 'Cinzel', serif;
+	color: #303c6c;
+	font-size: 4rem;
+	margin: 1em 0 0.5em 0;
+	font-weight: normal;
+	text-shadow: 0 2px white, 0 3px #777;
+	padding: 15px;
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+header h2 {
+	width: 70%;
+	font-family: 'Cinzel', serif;
+	color: #303c6c;
+	text-shadow: 1px 1px 1px white;
+	font-size: 1.5rem;
+	font-weight: normal;
+	padding: 15px;
+	margin-top: -20px;
+	margin-left: 125px;
+}
+
+.summary {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
+	padding: 15px;
+	text-align: center;
+	border-bottom: double;
+}
+
+.summary p {
+	font-family: 'Satisfy', cursive;
+}
+
+.summary a {
+	color: black;
+	font-weight: normal;
+}
+
+.preamble {
+	background-image: url("bk02.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #121f21;
+	background-position: right;
+	padding: 25px;
+	margin-top: 25px;
+	font-family: 'Solway', serif;
+}
+
+@media (max-width: 800px) {
+	.preamble {
+		background-position: left;
+	}
+}
+
+.preamble h3 {
+	width: 40%;
+	padding: 5px;
+	border-bottom: double;
+	color: white;
+}
+
+.preamble p {
+	width: 40%;
+	padding-top: 15px;
+	color: white;
+}
+
+@media (max-width: 800px) {
+	.preamble p {
+		width: 60%;
+	}
+}
+
+.supporting {
+	background-image: url("bk03.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.explanation {
+	width: 50%;
+	float: left;
+	padding: 25px;
+	margin-top: 25px;
+	padding-bottom: 136px;
+	font-family: 'Solway', serif;
+	border-bottom: double;
+}
+
+@media (max-width: 800px) {
+	.explanation {
+		width: 100%;
+	}
+}
+
+.explanation h3 {
+	padding: 5px;
+	border-bottom: double;
+}
+
+.explanation p {
+	padding-top: 15px;
+	color: black;
+}
+
+.explanation a {
+	color: black;
+	text-decoration: underline;
+}
+
+.participation {
+	width: 50%;
+	float: left;
+	padding: 25px;
+	margin-top: 25px;
+	font-family: 'Solway', serif;
+	border-bottom: double;
+	border-left: double;
+}
+
+@media (max-width: 800px) {
+	.participation {
+		width: 100%;
+	}
+}
+
+.participation h3 {
+	padding: 5px;
+	border-bottom: double;
+}
+
+.participation p {
+	padding-top: 15px;
+	color: black;
+}
+
+.participation a {
+	color: black;
+	text-decoration: underline;
+}
+
+.benefits {
+	float: left;
+	padding: 25px;
+	margin-top: 25px;
+	font-family: 'Solway', serif;
+	border-bottom: double;
+}
+
+.benefits h3 {
+	padding: 5px;
+	border-bottom: double;
+}
+
+.benefits p {
+	padding-top: 15px;
+	color: black;
+}
+
+.benefits a {
+	color: black;
+	text-decoration: underline;
+}
+
+.requirements {
+	float: left;
+	padding: 25px;
+	margin-top: 25px;
+	font-family: 'Solway', serif;
+	border-bottom: double;
+}
+
+.requirements h3 {
+	padding: 5px;
+	border-bottom: double;
+}
+
+.requirements p {
+	padding-top: 15px;
+	color: black;
+}
+
+.requirements a {
+	color: black;
+	text-decoration: underline;
+}
+
+footer {
+	margin-top: 15px;
+	padding: 15px;
+	text-align: center;
+}
+
+.sidebar {
+	border-bottom: double;
+}
+
+.design-selection {
+	width: 33%;
+	float: left;
+	padding: 15px;
+}
+
+.design-selection h3 {
+	border-bottom: double;
+	padding: 5px;
+	padding-left: 25px;
+}
+
+.design-selection ul {
+	padding: 5px;
+	padding-left: 25px;
+}
+
+.design-archives {
+	width: 33%;
+	float: left;
+	padding: 15px;
+}
+
+.design-archives h3 {
+	border-bottom: double;
+	padding: 5px;
+	padding-left: 25px;
+}
+
+.design-archives ul {
+	padding: 5px;
+	padding-left: 25px;
+}
+
+.zen-resources {
+	width: 33%;
+	float: left;
+	padding: 15px;
+}
+
+.zen-resources h3 {
+	border-bottom: double;
+	padding: 5px;
+	padding-left: 25px;
+}
+
+.zen-resources ul {
+	padding: 5px;
+	padding-left: 25px;
+}
